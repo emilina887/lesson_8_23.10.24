@@ -107,3 +107,23 @@
 #             print('no')
 #     print(f"Grade {int(round(12 * temp / 15, 0))}")
 
+
+# a = int(input('A '))    #найбільший спільний дільник
+# b = int(input('B '))
+#
+# for i in range(a, 0, -1):
+#     if a % i == 0 and b % i == 0:
+#         print(f"NSD {i}")
+#         break
+
+# a = int(input('A '))     ##найменший спільний дільник
+# b = int(input('B '))
+#
+# flag = 0
+# for i in range(2, a+1, 1):
+#     if a % i == 0 and b % i == 0:
+#         print(f"NSD {i}")
+#         flag += 1
+#         break
+# if flag == 0:
+#     print("NSD 1")
