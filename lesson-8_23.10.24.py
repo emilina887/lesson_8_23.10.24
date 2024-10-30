@@ -105,14 +105,14 @@
 #     print()
 
 
-num = int(input("Number "))
-for i in range(num + 1):
-    for j in range(num):
-        if i == 0 or j == 0 or i == j or num == i or num == j:
-            print("*", end=" ")
-        else:
-            print(" ", end=" ")
-    print()
+# num = int(input("Number "))
+# for i in range(num + 1):
+#     for j in range(num):
+#         if i == 0 or j == 0 or i == j or num == i or num == j:
+#             print("*", end=" ")
+#         else:
+#             print(" ", end=" ")
+#     print()
 
     # num1 = int(input("Number1 "))   #прямокутник незаповнений
     # for i in range(num + 1):
