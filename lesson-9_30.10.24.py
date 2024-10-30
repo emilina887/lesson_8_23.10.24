@@ -127,3 +127,26 @@
 #         break
 # if flag == 0:
 #     print("NSD 1")
+
+
+# num = int(input("A "))
+# for i in range(num):
+#     for j in range(i+1):
+#         print(i+1, end="")
+#     print()
+
+
+# num = int(input("A "))
+# for i in range(num):
+#     for j in range(i+1):
+#         print((i+1)*(i+1), end="")
+#     print()
+
+
+# a = int(input('A '))
+a = 12342
+res = 0
+
+while a > 0:
+    a = a // 10
+    res +=
