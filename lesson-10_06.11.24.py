@@ -55,3 +55,32 @@
 # print(str.count('із'))
 
 
+# str = input("W: ")
+# strs = input("S: ")
+#
+# print(str.count(strs))
+
+
+# str = input("S ")
+# str2 = input("W O ")
+# str3 = input("W N ")
+#
+# result = str.replace(str2, str3)
+# print(result)
+
+
+# a = input("Enter: ")
+# b = a[::-1].capitalize()
+# if a == b:
+#     print("Паліндром")
+# else:
+#     print("Не є паліндромом")
+
+
+a = input("Enter: ")
+b = a[::-1].replace(" ", "").lower()
+if a.replace(" ", "").lower() == b:
+    print("Паліндром")
+    print(b)
+else:
+    print("Не є паліндромом")
