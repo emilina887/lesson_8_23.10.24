@@ -77,10 +77,18 @@
 #     print("Не є паліндромом")
 
 
-a = input("Enter: ")
-b = a[::-1].replace(" ", "").lower()
-if a.replace(" ", "").lower() == b:
-    print("Паліндром")
-    print(b)
-else:
-    print("Не є паліндромом")
+# a = input("Enter: ")
+# b = a[::-1].replace(" ", "").lower()
+# if a.replace(" ", "").lower() == b:
+#     print("Паліндром")
+#     print(b)
+# else:
+#     print("Не є паліндромом")
+
+
+url = "https://pythoncod.club/stroki-v-python-i-metody-raboty/"
+index_one_sl = url.find("/")
+index_two_sl = url.find("/")
+print(url.find("/", index_one_sl+1))
+temp_url = url[url.find("/", index_one_sl+1)+1:]
+print(temp_url[:temp_url.find("/")])
