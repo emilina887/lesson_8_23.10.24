@@ -144,9 +144,9 @@
 
 
 # a = int(input('A '))
-a = 12342
-res = 0
-
-while a > 0:
-    a = a // 10
-    res +=
+# a = 12342
+# res = 0
+#
+# while a > 0:
+#     a = a // 10
+#     res +=
